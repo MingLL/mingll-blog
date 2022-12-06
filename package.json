@@ -1,8 +1,13 @@
 {
   "name": "minglli-blog-app",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "description": "Front page of MingLL blog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MingLL/mingll-blog"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
